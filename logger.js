@@ -8,7 +8,7 @@ getMac((err, macAddr) => {
 
 const fs = require('fs');
 const jetpack = require('fs-jetpack');
-const Logit = require('logit.js');
+const Logit = require('logit');
 var logit = Logit(__filename);
 // var logit = (...args) => console.log(...args);
 const home = process.env.HOME || process.env.HOMEPATH;
