@@ -14,5 +14,9 @@
     "fs-jetpack": "^2.2.0",
     "getmac": "^1.4.6",
     "logit": "https://github.com/AidanNichol/logit"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0"
   }
 }

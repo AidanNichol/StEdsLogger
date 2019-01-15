@@ -26,6 +26,7 @@ if (!jetpack.exists(docs)) {
   fs.mkdirSync(docs);
 }
 let docname = docs + '/bookings.log';
+
 function logToConsole() {}
 
 logToConsole.prototype.write = function(rec) {
@@ -51,7 +52,3 @@ exports.logger = bunyan.createLogger({
   ],
   src: false, // Optional, see "src" section
 });
-// logger.info('hi');
-// logger.warn({ lang: 'fr' }, 'au revoir');
-// logger.warn({ lang: 'en' }, 'seeya', 'test');
-// logger.warn('byee', { lang: 'ch' });
