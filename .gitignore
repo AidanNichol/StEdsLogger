@@ -62,4 +62,4 @@ typings/
 
 # ignore yalc
 .yalc*
-yalc.lock
+yalc.*

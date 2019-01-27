@@ -2,7 +2,7 @@
   "name": "StEdsLogger",
   "version": "1.0.0",
   "description": "Disk Logging routine for St.Edwards Booking System",
-  "main": "StEdsLogger.js",
+  "main": "index.js",
   "repository": {
     "url": "https://github.com/AidanNichol/StEdsLogger",
     "type": "git"
